@@ -1,5 +1,6 @@
 import path from "path";
 import express from "express";
+import "dotenv/config";
 import client from "./db/client.js";
 import seed from "./db/seed.js";
 import router from "./api/index.js";
